@@ -1,4 +1,3 @@
-// src/product/entities/product.entity.ts
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Check } from 'typeorm';
 
 @Entity('products')

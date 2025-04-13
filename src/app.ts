@@ -48,3 +48,6 @@ async function bootstrap() {
 bootstrap().catch((err) => {
     console.error('Error starting NestJS application:', err);
 });
+
+
+export default app;

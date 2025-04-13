@@ -131,12 +131,12 @@ const loginUser = async (req: express.Request, res: express.Response, next: expr
     }
 };
 
-router.post('/', createUser);              // POST /users
-router.get('/', getAllUsers);              // GET /users
-router.get('/:id', getUser);               // GET /users/:id
-router.patch('/:id', updateUser);          // PATCH /users/:id
-router.delete('/:id', deleteUser);         // DELETE /users/:id
-router.post('/login', loginUser);          // POST /users/login
+router.post('/', createUser);              
+router.get('/', getAllUsers);              
+router.get('/:id', getUser);               
+router.patch('/:id', updateUser);         
+router.delete('/:id', deleteUser);         
+router.post('/login', loginUser);          
 
 
 export { createUser, getAllUsers, getUser, updateUser, deleteUser, loginUser };
